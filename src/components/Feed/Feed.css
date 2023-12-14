@@ -1,0 +1,92 @@
+.feedBar{
+    margin: 16px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedBar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedBar ul .active-feed{
+    color: black;
+    font-weight: 600;
+}
+
+.feedBar .buttons-feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.feed-location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 243px;
+    border-bottom: 1px solid #B8B8B8;;
+}
+
+.feed-location span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebar-info{
+    width: 243px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400; 
+    opacity: 0.5;
+}
+
+.sidebar-info span{
+    width: 220px;
+    margin-left: 7px;
+}
+
+.recommendedGroups{
+    width: 243px;
+}
+
+.recommendedGroups span{
+    margin-left: 4px;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.recommendedGroupItem{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 243px;
+}
+
+.recommendedGroupItem .follow-btn{
+    font-size: 12px;
+    width: 60px;
+    height: 24px;
+    border-radius: 14px;
+    background: #edeef0;
+    color: black;
+    border: none;
+}
+
+.groupFollowed{
+    font-size: 12px;
+    width: 73px;
+    height: 24px;
+    border-radius: 14px;
+    background: black;
+    color: white;
+    border: none;
+}

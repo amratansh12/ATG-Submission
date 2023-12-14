@@ -1,0 +1,144 @@
+.post{
+    margin: 8px 0;
+    width: 692px;
+    height: 472px;
+    border-radius: 4px;
+    background: #FFF;
+    border: 1px solid #E0E0E0;
+}
+
+.post img{
+    width: 692px;
+    height: 220px;
+}
+
+.post .type{
+    margin: 20px auto 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.post .heading{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post .heading p{
+    width: 600px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.post .desc{
+    width: 652px;
+    margin-left: 20px;
+    color: #5C5C5C;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.post .postInfo{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post .postInfo img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.post .postInfo .userInfo span{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.post .postInfo .misc span{
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.post .postInfo .misc button{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 36px;
+    border-radius: 2px;
+    background: #EDEEF0;
+    border: none;
+}
+
+.post .placeInfo{
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.post .jobButton{
+    margin: 16px 20px;
+    width: 652px;
+    height: 38px;
+    border-radius: 8px;
+    border: 0.7px solid #A9AEB8;
+    background: #FFF;
+    color: #E56135;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+    .post{
+        width: 360px;
+        height: 330px;
+    }  
+    .post .desc{
+        font-size: 12px;
+        width: 320px;
+        overflow: hidden;
+        margin-top: -15px;
+    }  
+    .post .type{
+        font-size: 14px;
+    }
+    .post img{
+        width: 360px;
+        height: 120px;
+    }
+    .post .heading p{
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    .post .postInfo{
+        margin-top: -10px;
+    }
+    .post .userInfo img{
+        width: 37px;
+        height: 37px;
+    }
+    .post .postInfo .userInfo span{
+        font-size: 16px;
+    }
+    .post .postInfo .misc span{
+        display: none;
+    }
+    .post .postInfo .misc #eye{
+        display: none;
+    }
+    .post .jobButton{
+        margin-top: -20px;
+        width: 320px;
+    }
+    .post .placeInfo{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
