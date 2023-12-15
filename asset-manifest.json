@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ATG-Submission/static/css/main.0c5ef096.css",
+    "main.js": "/ATG-Submission/static/js/main.07ca2f7a.js",
+    "static/js/787.93c7865d.chunk.js": "/ATG-Submission/static/js/787.93c7865d.chunk.js",
+    "static/media/atg_illustration.png": "/ATG-Submission/static/media/atg_illustration.e43c20c0bb459e5530b8.png",
+    "index.html": "/ATG-Submission/index.html",
+    "main.0c5ef096.css.map": "/ATG-Submission/static/css/main.0c5ef096.css.map",
+    "main.07ca2f7a.js.map": "/ATG-Submission/static/js/main.07ca2f7a.js.map",
+    "787.93c7865d.chunk.js.map": "/ATG-Submission/static/js/787.93c7865d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c5ef096.css",
+    "static/js/main.07ca2f7a.js"
+  ]
+}
